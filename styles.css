@@ -100,6 +100,10 @@
  }
  main p:first-child{
     margin-top: 15%;
+    margin-bottom: 20px;
+ }
+ main p:nth-child(2) {
+    margin-bottom: 40px;
  }
 .form-container {
     padding: 20px;
@@ -130,6 +134,7 @@ input {
     border-radius: 5px;
 }
 input[type='submit'] {
+    margin-top: 20px;
     padding: 10px 40px;
     color: white;
     font-weight: bold;
@@ -163,5 +168,4 @@ input[type="password"]:not(:focus):invalid + .password-warning::before {
     font-size: 10px;
     content: "* Password required";
     color: red;
-
 }
